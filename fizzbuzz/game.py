@@ -10,3 +10,5 @@ class Fizzbuzz(object):
             return 'Fizz'
         elif number % 5 == 0:
             return 'Buzz'
+        else:
+            return number

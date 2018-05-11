@@ -15,3 +15,8 @@ def test_multiples_of_3_and_5():
     fizzbuzz = Fizzbuzz()
 
     assert_equal(fizzbuzz.play(15), 'FizzBuzz')
+
+def test_all_other_numbers():
+    fizzbuzz = Fizzbuzz()
+
+    assert_equal(fizzbuzz.play(1), 1)
