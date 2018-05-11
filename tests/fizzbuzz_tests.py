@@ -10,3 +10,8 @@ def test_multiples_of_5():
     fizzbuzz = Fizzbuzz()
 
     assert_equal(fizzbuzz.play(5), 'Buzz')
+
+def test_multiples_of_3_and_5():
+    fizzbuzz = Fizzbuzz()
+
+    assert_equal(fizzbuzz.play(15), 'FizzBuzz')
